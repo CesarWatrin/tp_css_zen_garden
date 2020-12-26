@@ -208,6 +208,11 @@ h4 {
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
+         transform: rotate(180deg);
+
+         li {
+            transform: rotate(-180deg);
+         }
       }
    }
 
