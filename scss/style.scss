@@ -292,4 +292,15 @@ h4 {
          }
       }
    }
+
+   .classroom {
+
+      ul {
+         transform: rotate(180deg);
+
+         li {
+            transform: rotate(-180deg);
+         }
+      }
+   }
 }
