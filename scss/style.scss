@@ -2,6 +2,7 @@
 
 $red: #A51363;
 $blue: #004E90;
+$black: #333333;
 
 .promo-2013, .promo-2018, .promo-2020 {
    display: none;
@@ -19,7 +20,7 @@ body {
 
 h1, h2 {
    text-align: center;
-   background: linear-gradient($blue, $red);
+   background: $black;
    padding: 10px;
    color: white;
 }
@@ -58,7 +59,20 @@ img {
       margin: 20px auto;
       padding: 10px;
       border-radius: 10px;
-      // transition: 1s;
+      transition: 0.5s;
+      box-shadow: 0px 0px 10px 10px #cccccc;
+
+      li {
+         box-shadow: 0px 0px 0px 0px $black;
+      }
+
+      li:hover {
+         box-shadow: 0px 0px 0px 0px $black;
+      }
+   }
+
+   li:hover {
+      box-shadow: 0px 0px 10px 10px $black;
    }
 }
 
@@ -109,6 +123,10 @@ h4 {
    padding: 20px;
 }
 
+.github:hover {
+   background-image: url('../githubHover.svg');
+}
+
 .linkedin {
    background-image: url('../linkedin.svg');
    background-position: center;
@@ -118,10 +136,8 @@ h4 {
    padding: 20px;
 }
 
-.footer {
-   margin-top: 50px;
-   background-color: #222222;
-   color: white;
+.linkedin:hover {
+   background-image: url('../linkedinHover.svg');
 }
 
 .teachers {
@@ -130,7 +146,7 @@ h4 {
       margin: 40px auto;
       display: flex;
       flex-direction: row;
-      max-width: 400px;
+      max-width: 710px;
       overflow: auto;
 
       li {
@@ -145,6 +161,127 @@ h4 {
             width: 220px;
             margin: 10px auto;
             padding: 10px;
+         }
+      }
+   }
+}
+
+// .footer {
+//    margin-top: 50px;
+//    background-color: #222222;
+//    color: white;
+// }
+
+.outro {
+   max-width: 850px;
+   margin: 20px auto;
+   background-color: $black;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: left;
+}
+
+.miw_contact {
+   background-color: $black;
+   color: white;
+
+   h4 {
+      font-size: 25px;
+      padding: 5px 20px;
+   }
+
+   * {
+      padding: 5px;
+      text-align: left;
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+
+   .classroom {
+      max-width: 992px;
+
+      ul {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+      }
+   }
+
+   .miw_contact {
+
+      li {
+         text-align: center;
+      }
+   }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (min-width: 1200px) {
+
+   .students, .sidebar {
+      display: table-cell;
+      padding: 50px;
+   }
+
+   .students {
+      width: 70%;
+   }
+
+   .sidebar {
+      width: 30%;
+   }
+
+   .teachers {
+
+      ul {
+         flex-direction: column;
+         align-items: center;
+         margin: 10px;
+
+         li {
+            margin: 10px;
+         }
+
+         ul {
+            flex-direction: row;
+         }
+      }
+   }
+}
+
+@media print {
+
+   * {
+      background-color: white;
+   }
+
+   h1, h2, h3, h4 {
+      color: $black;
+   }
+
+   .tools, .footer, .teachers {
+      display: none;
+   }
+
+   .students {
+
+      ul {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+
+         * {
+            padding: 0;
+            margin: 0;
+            box-shadow: 0px 0px 0px 0px white;
+         }
+
+         img {
+            width: 80px;
          }
       }
    }
