@@ -398,7 +398,44 @@ template {
   display: none !important;
 }
 
-/* line 7, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+@media (prefers-color-scheme: dark) {
+  /* line 9, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  body {
+    background: #333333;
+  }
+  /* line 13, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  img {
+    filter: grayscale(30%);
+  }
+  /* line 17, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  .intro {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+  }
+  /* line 24, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  .classroom li, .teachers li {
+    background: #333333;
+    border: 1px solid white;
+  }
+  /* line 30, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  .classroom li ul li, .teachers li ul li {
+    border: 0px solid;
+  }
+  /* line 43, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  .classroom li ul li {
+    width: 50%;
+  }
+  /* line 50, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  .outro {
+    border: 1px solid white;
+  }
+  /* line 54, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  .miw_contact {
+    border-top: 1px solid white;
+  }
+}
+
+/* line 59, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .promo-2013, .promo-2018, .promo-2020 {
   display: none;
 }
@@ -408,13 +445,13 @@ template {
   src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 }
 
-/* line 16, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 68, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 body {
   background: white;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 22, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 74, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 h1, h2 {
   text-align: center;
   background: #333333;
@@ -422,37 +459,37 @@ h1, h2 {
   color: white;
 }
 
-/* line 29, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 81, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 h2 {
   border-radius: 10px;
   max-width: 300px;
   margin: 0 auto;
 }
 
-/* line 35, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 87, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 li {
   list-style-type: none;
   text-align: center;
 }
 
-/* line 40, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 92, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 ul {
   padding: 0;
 }
 
-/* line 44, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 96, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 img {
   width: 150px;
   height: 150px;
   padding: 10px;
 }
 
-/* line 51, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 103, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .tools a {
   font-size: 20px;
 }
 
-/* line 58, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 110, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .classroom li, .teachers li {
   width: 220px;
   background: linear-gradient(#004E90, #A51363);
@@ -462,47 +499,47 @@ img {
   transition: 0.5s;
 }
 
-/* line 66, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 118, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .classroom li li, .teachers li li {
   box-shadow: 0px 0px 0px 0px #333333;
 }
 
-/* line 70, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 122, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .classroom li li:hover, .teachers li li:hover {
   box-shadow: 0px 0px 0px 0px #333333;
 }
 
-/* line 75, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 127, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .classroom li:hover, .teachers li:hover {
   box-shadow: 0px 0px 5px 5px #333333;
 }
 
-/* line 80, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 132, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .networks_links {
   display: flex;
   flex-direction: row;
 }
 
-/* line 84, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 136, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .networks_links li {
   width: 100px;
   text-align: center;
   background: transparent;
 }
 
-/* line 96, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 148, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .networks_links a:hover {
   color: white;
 }
 
-/* line 101, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 153, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 h4 {
   color: white;
   font-weight: normal;
   font-size: 20px;
 }
 
-/* line 109, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 161, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .teaching li {
   font-size: 20px;
   width: 150px;
@@ -511,7 +548,7 @@ h4 {
   color: white;
 }
 
-/* line 118, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 170, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .github {
   background-image: url("https://cesarwatrin.github.io/tp_css_zen_garden/github.svg");
   background-position: center;
@@ -521,12 +558,12 @@ h4 {
   padding: 20px;
 }
 
-/* line 127, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 179, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .github:hover {
   background-image: url("https://cesarwatrin.github.io/tp_css_zen_garden/githubHover.svg");
 }
 
-/* line 131, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 183, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .linkedin {
   background-image: url("https://cesarwatrin.github.io/tp_css_zen_garden/linkedin.svg");
   background-position: center;
@@ -536,12 +573,12 @@ h4 {
   padding: 20px;
 }
 
-/* line 140, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 192, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .linkedin:hover {
   background-image: url("https://cesarwatrin.github.io/tp_css_zen_garden/linkedinHover.svg");
 }
 
-/* line 146, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 198, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .teachers ul {
   margin: 40px auto;
   display: flex;
@@ -550,25 +587,25 @@ h4 {
   overflow: auto;
 }
 
-/* line 153, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 205, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .teachers ul li {
   margin: 0 10px;
 }
 
-/* line 157, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 209, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .teachers ul ul {
   margin: 0;
   overflow: hidden;
 }
 
-/* line 161, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 213, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .teachers ul ul li {
   width: 220px;
   margin: 10px auto;
   padding: 10px;
 }
 
-/* line 176, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 228, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .outro {
   max-width: 850px;
   margin: 20px auto;
@@ -579,152 +616,115 @@ h4 {
   text-align: left;
 }
 
-/* line 186, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 238, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .miw_contact {
   background-color: #333333;
   color: white;
   overflow-x: hidden;
 }
 
-/* line 191, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 243, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .miw_contact h4 {
   font-size: 25px;
   padding: 5px 20px;
 }
 
-/* line 196, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+/* line 248, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
 .miw_contact * {
   padding: 5px;
   text-align: left;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 205, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 257, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .classroom {
     max-width: 992px;
   }
-  /* line 208, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 260, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .classroom ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     transform: rotateX(180deg);
   }
-  /* line 214, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 266, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .classroom ul li {
     transform: rotateX(-180deg);
   }
-  /* line 222, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 274, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .miw_contact li {
     text-align: center;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 231, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 283, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .students, .sidebar {
     display: table-cell;
     text-align: center;
   }
-  /* line 236, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 288, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .students {
     width: 75%;
   }
-  /* line 240, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 292, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .sidebar {
     width: 30%;
   }
-  /* line 246, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 298, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .teachers ul {
     flex-direction: column;
     align-items: center;
     margin: 10px;
   }
-  /* line 251, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 303, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .teachers ul li {
     margin: 10px;
   }
-  /* line 255, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 307, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .teachers ul ul {
     flex-direction: row;
   }
 }
 
 @media print {
-  /* line 264, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 316, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   * {
     background-color: white;
   }
-  /* line 268, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 320, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   h1, h2, h3, h4 {
     color: #333333;
   }
-  /* line 272, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 324, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .tools, .footer, .teachers {
     display: none;
   }
-  /* line 278, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 330, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .students ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 284, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 336, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .students ul * {
     padding: 0;
     margin: 0;
     box-shadow: 0px 0px 0px 0px white;
   }
-  /* line 290, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 342, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .students ul img {
     width: 50px;
     height: 50px;
   }
-  /* line 299, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 351, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .classroom ul {
     transform: rotateX(180deg);
   }
-  /* line 302, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
+  /* line 354, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
   .classroom ul li {
     transform: rotateX(-180deg);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  /* line 311, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  body {
-    background: #333333;
-  }
-  /* line 315, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  img {
-    filter: grayscale(30%);
-  }
-  /* line 319, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  .intro {
-    border-bottom: 1px solid white;
-    margin-bottom: 10px;
-  }
-  /* line 326, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  .classroom li, .teachers li {
-    background: #333333;
-    border: 1px solid white;
-  }
-  /* line 332, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  .classroom li ul li, .teachers li ul li {
-    border: 0px solid;
-  }
-  /* line 345, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  .classroom li ul li {
-    width: 50%;
-  }
-  /* line 352, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  .outro {
-    border: 1px solid white;
-  }
-  /* line 356, ../César/Documents/MIW/Integration_2/github/tp_css_zen_garden/scss/style.scss */
-  .miw_contact {
-    border-top: 1px solid white;
   }
 }
 
