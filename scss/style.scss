@@ -3,6 +3,7 @@
 $red: #A51363;
 $blue: #004E90;
 $black: #333333;
+$white: #cccccc;
 
 .promo-2013, .promo-2018, .promo-2020 {
    display: none;
@@ -317,7 +318,7 @@ h4 {
    }
 
    .intro {
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid $white;
       margin-bottom: 10px;
    }
 
@@ -325,7 +326,7 @@ h4 {
 
       li {
          background: $black;
-         border: 1px solid white;
+         border: 1px solid $white;
 
          ul {
 
@@ -349,6 +350,14 @@ h4 {
       }
    }
 
+   .github {
+      filter: brightness(80%);
+   }
+
+   .linkedin {
+      filter: brightness(80%);
+   }
+
    .github:hover {
       background-image: url('https://cesarwatrin.github.io/tp_css_zen_garden/github.svg');
       filter: brightness(50%);
@@ -360,10 +369,21 @@ h4 {
    }
 
    .outro {
-      border: 1px solid white;
+      border: 1px solid $white;
    }
 
    .miw_contact {
-      border-top: 1px solid white;
+      border-top: 1px solid $white;
+   }
+
+   h1, h2, h3, h4, p, span, li {
+      color: $white;
+   }
+
+   .teachers {
+
+      li {
+         color: $white;
+      }
    }
 }
