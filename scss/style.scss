@@ -4,58 +4,6 @@ $red: #A51363;
 $blue: #004E90;
 $black: #333333;
 
-@media (prefers-color-scheme: dark) {
-
-   body {
-      background: $black;
-   }
-
-   img {
-      filter: grayscale(30%);
-   }
-
-   .intro {
-      border-bottom: 1px solid white;
-      margin-bottom: 10px;
-   }
-
-   .classroom, .teachers {
-
-      li {
-         background: $black;
-         border: 1px solid white;
-
-         ul {
-
-            li {
-               border: 0px solid;
-            }
-         }
-      }
-   }
-
-   .classroom {
-
-      li {
-
-         ul {
-
-            li {
-               width: 50%;
-            }
-         }
-      }
-   }
-
-   .outro {
-      border: 1px solid white;
-   }
-
-   .miw_contact {
-      border-top: 1px solid white;
-   }
-}
-
 .promo-2013, .promo-2018, .promo-2020 {
    display: none;
 }
@@ -355,5 +303,67 @@ h4 {
             transform: rotateX(-180deg);
          }
       }
+   }
+}
+
+@media (prefers-color-scheme: dark) {
+
+   body {
+      background: $black;
+   }
+
+   img {
+      filter: grayscale(30%);
+   }
+
+   .intro {
+      border-bottom: 1px solid white;
+      margin-bottom: 10px;
+   }
+
+   .classroom, .teachers {
+
+      li {
+         background: $black;
+         border: 1px solid white;
+
+         ul {
+
+            li {
+               border: 0px solid;
+            }
+         }
+      }
+   }
+
+   .classroom {
+
+      li {
+
+         ul {
+
+            li {
+               width: 50%;
+            }
+         }
+      }
+   }
+
+   .github:hover {
+      background-image: url('https://cesarwatrin.github.io/tp_css_zen_garden/github.svg');
+      filter: brightness(50%);
+   }
+
+   .linkedin:hover {
+      background-image: url('https://cesarwatrin.github.io/tp_css_zen_garden/linkedin.svg');
+      filter: brightness(50%);
+   }
+
+   .outro {
+      border: 1px solid white;
+   }
+
+   .miw_contact {
+      border-top: 1px solid white;
    }
 }
